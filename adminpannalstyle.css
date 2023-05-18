@@ -1,0 +1,152 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: aliceblue;
+}
+.nav-bar
+{
+    background-color: black;
+    height: 40px;
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.im1
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-bar ul
+{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+
+}
+.nav-bar ul li a
+{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 40px;
+    font-family: calibri;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+.container-fluid
+{
+    height: 100vh;
+    width: 100%;
+}
+.r1
+{
+    height: 100vh;
+}
+.r2
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(194, 12, 12, 0.6),rgba(205, 22, 22, 0.6)),url(image/26.jpeg);
+}
+.r3
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(101, 141, 6, 0.5),rgba(30, 172, 18, 0.6)),url(image/27.jpeg);
+}
+.r4
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(67, 14, 189, 0.8),rgba(24, 47, 163, 0.3)),url(image/28.webp);
+}
+.r5
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(226, 197, 29, 0.8),rgba(222, 193, 28, 0.3)),url(image/29.webp);
+}
+.r6
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(10, 140, 150, 0.8),rgba(12, 164, 144, 0.3)),url(image/30.webp);
+}
+.r7
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgba(149, 12, 142, 0.8),rgba(145, 18, 142, 0.3)),url(image/31.webp);
+}
+.r2:hover
+{
+    background-image:url(image/26.jpeg);
+    transition: all 0.5s ease;
+    
+}
+.r3:hover
+{
+    background-image:url(image/27.jpeg);
+    transition: all 0.5s ease;
+    
+}
+.r4:hover
+{
+    background-image:url(image/28.webp);
+    transition: all 0.5s ease;
+    
+}
+.r5:hover
+{
+    background-image:url(image/29.webp);
+    transition: all 0.5s ease;
+    
+}
+.r6:hover
+{
+    background-image:url(image/30.webp);
+    transition: all 0.5s ease;
+    
+}
+.r7:hover:hover
+{
+    background-image:url(image/31.webp);
+    transition: all 0.5s ease;
+    
+}
+
+@media screen and (max-width:768px)
+{
+    .nav-bar
+    {
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .nav-bar
+    {
+        width: 100%;
+    }
+}

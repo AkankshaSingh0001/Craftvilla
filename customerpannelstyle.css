@@ -1,0 +1,180 @@
+section
+{
+    overflow: hidden;
+    border-top: 1px solid;
+}
+nav
+{
+    box-sizing: border-box;
+    height: 50px;
+    background-color: rgb(1, 0, 57);
+    width: 100%;
+    padding: 20px;
+}
+.m1:hover
+{
+    color:aliceblue;
+}
+.im1
+{
+    margin-top: -3vh;
+    z-index: 900;
+}
+
+.l1 a
+{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    float:right;
+    font-weight: bold;
+}
+.l2 a
+{
+    float:right;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+.div1
+{
+    height:83vh;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("image/35.jpg");
+    background-position: center;
+}
+.d0
+{
+    background-color: rgb(82, 100, 205);
+    height:220px;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+}
+.d1
+{
+    height:150px;
+    width:350px;
+    background-color: wheat;
+    margin-left: -100px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.d2
+{
+    background-color: rgb(82, 100, 205);
+}
+.icon
+{
+    display: none;
+}
+.m3
+{
+    display: none;
+}
+
+@media screen and (max-width:992px)
+{
+    .d0
+    {
+        height:300px;
+        display: flex;
+        width: 33.33333333333333333%;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .d1
+    {
+        height:180px;
+        width:250px;
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .d0
+    {
+        height:250px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        background-image:url("image/36.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .d1
+    {
+        height:200px;
+        width:300px;
+        margin-left: 0px;
+        margin-top: -50px;
+    }
+    .nav-bar
+    {
+        display: none;
+    }
+    .icon
+    {
+        display: block;
+    }
+    
+    .im1
+    {
+        margin-top: -3vh;
+        z-index: 900;
+        position: fixed;
+    }
+    .menu
+    {
+        color:aliceblue;
+        height: 20px;
+        float: right;
+        margin-right: 10px;
+    }
+    .icon i
+    {
+        color: aliceblue;
+        font-size: 20px;
+        float: right;
+        margin-right: 10px;
+    }
+    .m3
+    {
+        display: flex;
+        position: absolute;
+        background-color: rgb(1, 0, 57);
+        margin-left: 68%;
+        width: 200px;
+        margin-top: -895px;
+        transition: all 0.5s ease;
+    }
+    .m2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 2px solid #ffff;
+    }
+    .m2 a
+    {
+        text-decoration: none;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 18px;
+        font-weight: calibri;
+        
+    }
+    .m_menu
+    {
+        margin-top: -80px;
+        
+    }
+}

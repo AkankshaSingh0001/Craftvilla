@@ -1,0 +1,93 @@
+body
+{
+    padding: 0px;
+    margin: 0px; 
+    background-color: rgb(198, 235, 229);
+    
+}
+section
+{
+    background-color: rgb(0, 128, 107);
+    height: 80vh;
+}
+nav
+{
+    box-sizing: border-box;
+    height: 50px;
+    background-color: rgb(0, 128, 107);
+    width: 100%;
+    padding: 20px;
+}
+.m1:hover
+{
+    color:aliceblue;
+}
+.im1
+{
+    margin-top: -3vh;
+    z-index: 900px;
+}
+.l1 a
+{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    float:right;
+    font-weight: bold;
+}
+.l2 a
+{
+    float:right;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+.d1
+{
+    position: absolute;
+    height: 75vh;
+    width: 55%;
+    background-image:url("image/32.jpeg") ;
+    background-size: cover;
+    margin-left: 45%;
+    margin-top: 12vh;
+}
+.d2
+{
+    position: absolute;
+    height: 50vh;
+    width: 45%;
+    background-color:transparent;
+    margin-left: 10%;
+    margin-top: 20vh;
+}
+.s1
+{
+    font-size:3vw;
+    font-weight: bold;
+    color:rgb(207, 241, 236);
+}
+.b1
+{
+    height: 40px;
+    width: 150px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1:hover
+{
+    opacity: 0.8;
+    background-color: black;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:768px)
+{
+
+    
+}
+

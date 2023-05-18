@@ -1,0 +1,403 @@
+*
+{
+    margin: 0px;
+}
+section
+{
+    display: block;
+    justify-content:space-between;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.a2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.a5
+{
+    margin-top: 0vh;
+}
+.a4
+{
+    width: 100%;
+    height: auto;
+}
+.a3
+{
+    width: 300px;
+    height: 500px;
+}
+.m2
+{
+    height: 105vh;
+    width: 100%;
+    overflow: hidden;
+}
+.c1
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url("image/10.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.c2
+{
+    overflow: hidden;
+    height: 55vh;
+    width: 100%;
+    background-image:url("image/21.jpeg");
+    background-size: cover;
+    display: flex;
+}
+.c3
+{
+    max-height: 300px;
+    background-color: rgb(214, 200, 15);
+    max-width: 300px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 12%;
+    margin-top: 25vh;
+    box-shadow: rgba(177, 177, 187, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.c4
+{
+    height: 38vh;
+    width: 40%;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 64vh;
+    padding: 10px;
+    margin-left: 42%;
+}
+.nav-bar
+{
+    background-color: rgb(214, 200, 15);
+    width: 55%;
+    color: #fff;
+    height: 40px;
+    float: right;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 40px;
+    display: flex;
+    float: right;
+    box-shadow: 5px 5px 10px 5px rgb(29, 27, 19);
+}
+.nav-links
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 2.5vmin;
+    list-style-type: none;
+    padding-left: 10px;
+    margin-top: 5px;
+    width:80%;
+}
+.nav-links a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: calibri;
+    
+}
+
+.ac
+{
+    border-bottom: 2px solid;
+}
+.nav-links a:hover
+{
+    border-bottom:2px solid;
+}
+
+.m
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 13%;
+}
+.nav-bar ul ul li
+{
+    position: absolute;
+    background-color: rgb(214, 200, 15);
+    list-style-type: none;
+    margin-top: 1px;
+    padding-top: 5px;
+    display: none;
+    width: 8%;
+    font-size: 2vmin;
+}
+.s-link li
+{
+    padding: 8px 8px;
+    margin-left: -1.5%;
+   
+    
+}
+.nav-bar ul li:hover ul li
+{
+    display: block;
+}
+.icon
+{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 2.5vmin;
+    padding: 0px 20px;
+}
+.menu
+{
+    display: none;
+    width: 40px;
+}
+
+.mdiv
+{
+    display:none;
+}
+.btn
+{
+    background-color: rgb(84, 83, 73);
+    height: 50px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #fff;
+    font-weight: bold;
+}
+.btn:hover
+{
+    background-color: rgb(214, 200, 15);
+}
+.d5
+{
+    background-color: rgb(202, 193, 64);
+    padding-top:15vh;
+    padding-bottom: 15vh;
+}
+.d2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.d3
+{
+    height:490px;
+    width: 490px;
+    background-image: url("image/12.webp");
+    background-size: cover;
+    border-radius: 490px;
+    position: relative;
+    z-index: 8;
+}
+.d4
+{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.d6
+{
+    height: 300px;
+    width: 55%;
+    z-index: 4;
+    position: relative;
+}
+.d7
+{
+    height: 60vh;
+    width:60%;
+    position: absolute;
+    background-color: #fff;
+    
+}
+.e1
+{
+    background-color: rgb(20, 19, 19);
+    box-sizing: border-box;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.e2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.e3
+{
+    border: 2px solid rgb(214, 200, 15);
+    padding: 8px;
+}
+.btn3
+{
+    height: 40px;
+    width: 140px;
+    background-color:rgb(214, 200, 15) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2vh;
+    font-size: 18px;
+    color: #fff;
+    border: none ;
+    font-weight: 900;
+    font-family: calibri;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn3:hover
+{
+    background-color: black;
+    color: rgb(214, 200, 15);
+}
+@media screen and (max-width:768px)
+{
+    .d7
+    {
+        width: 100%;
+    }
+    .menu
+    {
+        display: block;
+    }
+    .c4
+    {
+        margin-left: 36%;
+        margin-top: 58vh;
+    }
+    section
+    {
+        display: block;
+    }
+    .nav-bar
+    {
+        width: 200px;
+        display: block;
+        overflow: hidden;
+        padding-left: 5px;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+    
+    .icon
+    {
+        width: 200px;
+        box-sizing: border-box;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    .mdiv
+    {
+        display: block;
+        margin-top: -895px;
+        margin-left: 66%;
+        margin-right: 0px;
+        transition: all 0.5s ease;
+        border-radius: 20px 0px 0px 20px;
+        overflow:hidden ;
+    }
+    .mdiv1
+    {
+        height: 50px;
+        
+        width: 200px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgb(214, 200, 15);
+    }
+    .nav-links1 a:hover
+    {
+        background-color: rgb(214, 200, 15);
+        color:#fff ;
+    }
+    .nav-links1
+    {
+        justify-content: center;
+        list-style-type: none;
+    }
+    .nav-links1 a
+    {
+        text-decoration: none; 
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: rgb(214, 200, 15);
+        font-weight: bold;
+        font-family: calibri;
+    }
+    
+    .mdiv ul ul li
+    {
+        position: absolute;
+        list-style-type: none;
+        margin-top: -25px;
+        padding-top: 5px;
+        display: none;
+        width: 16%;
+        font-size: 2vmin;
+        
+    }
+   /* .s-link
+    {
+        background-color: rgb(214, 200, 15);
+    }*/
+    .s-link li
+    {
+        padding: 8px 8px;
+        margin-top: 0vh;
+        background-color: #fff;
+        margin-left: -20.4%;
+
+    }
+    .mdiv ul li:hover ul li
+    {
+        display: block;
+    }
+    .m_menu
+    {
+        margin-top: -80px;
+        
+    }
+    .menu
+    {
+        display: block;
+        width: 40px;
+    }
+    .m
+    {
+        height: 140px;
+        width: 140px;
+        margin-left:0%;
+        margin-top: 15px;
+    }
+    .n
+    {
+        margin-top: 40vh;
+    }
+}
+
