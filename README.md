@@ -1,2 +1,2 @@
 # Craftvilla
-Full stack web project
+Full stack web project.
